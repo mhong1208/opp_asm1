@@ -9,10 +9,6 @@ public class Circle {
         return Math.PI * radius * radius;
     }
 
-    public double circumference() {
-        return 2 * Math.PI * radius;
-    }
-
     public static void main(String[] args) {
         Circle[] circles = new Circle[5];
         
