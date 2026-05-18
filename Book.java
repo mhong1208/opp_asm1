@@ -12,7 +12,7 @@ public class Book {
     }
 
     public void printInfo() {
-        System.out.println("\nTen sach: " + title);
+        System.out.println("\nTen sach : " + title);
         System.out.println("Tac gia: " + author);
         System.out.println("Gia: " + price);
         System.out.println("Tinh trang: " + (inStock ? "Con hang" : "Het hang"));
