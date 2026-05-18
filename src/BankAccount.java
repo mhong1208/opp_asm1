@@ -34,7 +34,7 @@ public class BankAccount {
         if (accountName != null && !accountName.trim().isEmpty()) {
             this.accountName = accountName;
         } else {
-            System.out.println("Loi cap nhat: Ten chu tai khoan khong hop le (trong hoac null).");
+            System.out.println("Loi cap nhat: Ten chu tai khoan khong hop le.");
         }
     }
 
