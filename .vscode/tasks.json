@@ -1,0 +1,89 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile asm3 Java",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-NoProfile",
+                "-Command",
+                "if (!(Test-Path asm3\\bin)) { New-Item -ItemType Directory -Path asm3\\bin | Out-Null }; Get-ChildItem -Path asm3\\src -Recurse -Filter *.java | ForEach-Object { javac -d asm3\\bin $_.FullName }"
+            ],
+            "problemMatcher": [
+                "$javac"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Run asm3 Main",
+            "type": "shell",
+            "command": "java",
+            "args": [
+                "-cp",
+                "asm3\\bin",
+                "Main"
+            ],
+            "dependsOn": [
+                "Compile asm3 Java"
+            ],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Compile asm4 Java",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-NoProfile",
+                "-Command",
+                "if (!(Test-Path asm4\\bin)) { New-Item -ItemType Directory -Path asm4\\bin | Out-Null }; Get-ChildItem -Path asm4\\src -Recurse -Filter *.java | ForEach-Object { javac -d asm4\\bin $_.FullName }"
+            ],
+            "problemMatcher": [
+                "$javac"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Run asm4 Main",
+            "type": "shell",
+            "command": "java",
+            "args": [
+                "-cp",
+                "asm4\\bin",
+                "Main"
+            ],
+            "dependsOn": [
+                "Compile asm4 Java"
+            ],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        }
+    ]
+}
