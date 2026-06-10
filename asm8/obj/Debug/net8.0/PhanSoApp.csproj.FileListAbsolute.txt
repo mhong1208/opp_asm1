@@ -1,0 +1,15 @@
+D:\STUDY\OOP\asm8\bin\Debug\net8.0\PhanSoApp.exe
+D:\STUDY\OOP\asm8\bin\Debug\net8.0\PhanSoApp.deps.json
+D:\STUDY\OOP\asm8\bin\Debug\net8.0\PhanSoApp.runtimeconfig.json
+D:\STUDY\OOP\asm8\bin\Debug\net8.0\PhanSoApp.dll
+D:\STUDY\OOP\asm8\bin\Debug\net8.0\PhanSoApp.pdb
+D:\STUDY\OOP\asm8\obj\Debug\net8.0\PhanSoApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDY\OOP\asm8\obj\Debug\net8.0\PhanSoApp.AssemblyInfoInputs.cache
+D:\STUDY\OOP\asm8\obj\Debug\net8.0\PhanSoApp.AssemblyInfo.cs
+D:\STUDY\OOP\asm8\obj\Debug\net8.0\PhanSoApp.csproj.CoreCompileInputs.cache
+D:\STUDY\OOP\asm8\obj\Debug\net8.0\PhanSoApp.sourcelink.json
+D:\STUDY\OOP\asm8\obj\Debug\net8.0\PhanSoApp.dll
+D:\STUDY\OOP\asm8\obj\Debug\net8.0\refint\PhanSoApp.dll
+D:\STUDY\OOP\asm8\obj\Debug\net8.0\PhanSoApp.pdb
+D:\STUDY\OOP\asm8\obj\Debug\net8.0\PhanSoApp.genruntimeconfig.cache
+D:\STUDY\OOP\asm8\obj\Debug\net8.0\ref\PhanSoApp.dll
