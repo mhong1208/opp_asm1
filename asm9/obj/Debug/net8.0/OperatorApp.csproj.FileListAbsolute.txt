@@ -1,0 +1,15 @@
+D:\STUDY\OOP\asm9\bin\Debug\net8.0\OperatorApp.exe
+D:\STUDY\OOP\asm9\bin\Debug\net8.0\OperatorApp.deps.json
+D:\STUDY\OOP\asm9\bin\Debug\net8.0\OperatorApp.runtimeconfig.json
+D:\STUDY\OOP\asm9\bin\Debug\net8.0\OperatorApp.dll
+D:\STUDY\OOP\asm9\bin\Debug\net8.0\OperatorApp.pdb
+D:\STUDY\OOP\asm9\obj\Debug\net8.0\OperatorApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUDY\OOP\asm9\obj\Debug\net8.0\OperatorApp.AssemblyInfoInputs.cache
+D:\STUDY\OOP\asm9\obj\Debug\net8.0\OperatorApp.AssemblyInfo.cs
+D:\STUDY\OOP\asm9\obj\Debug\net8.0\OperatorApp.csproj.CoreCompileInputs.cache
+D:\STUDY\OOP\asm9\obj\Debug\net8.0\OperatorApp.sourcelink.json
+D:\STUDY\OOP\asm9\obj\Debug\net8.0\OperatorApp.dll
+D:\STUDY\OOP\asm9\obj\Debug\net8.0\refint\OperatorApp.dll
+D:\STUDY\OOP\asm9\obj\Debug\net8.0\OperatorApp.pdb
+D:\STUDY\OOP\asm9\obj\Debug\net8.0\OperatorApp.genruntimeconfig.cache
+D:\STUDY\OOP\asm9\obj\Debug\net8.0\ref\OperatorApp.dll
