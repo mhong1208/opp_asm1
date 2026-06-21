@@ -84,6 +84,90 @@
                 "focus": false,
                 "panel": "shared"
             }
+        },
+        {
+            "label": "Compile asm10 Java",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-NoProfile",
+                "-Command",
+                "if (!(Test-Path asm10\\bin)) { New-Item -ItemType Directory -Path asm10\\bin | Out-Null }; $files = Get-ChildItem -Path asm10\\src -Recurse -Filter *.java | ForEach-Object { $_.FullName }; javac -d asm10\\bin $files"
+            ],
+            "problemMatcher": [
+                "$javac"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Run asm10 Main",
+            "type": "shell",
+            "command": "java",
+            "args": [
+                "-cp",
+                "asm10\\bin",
+                "Main"
+            ],
+            "dependsOn": [
+                "Compile asm10 Java"
+            ],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Compile asm11 Java",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-NoProfile",
+                "-Command",
+                "if (!(Test-Path asm11\\bin)) { New-Item -ItemType Directory -Path asm11\\bin | Out-Null }; $files = Get-ChildItem -Path asm11\\src -Recurse -Filter *.java | ForEach-Object { $_.FullName }; javac -d asm11\\bin $files"
+            ],
+            "problemMatcher": [
+                "$javac"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Run asm11 Main",
+            "type": "shell",
+            "command": "java",
+            "args": [
+                "-cp",
+                "asm11\\bin",
+                "Main"
+            ],
+            "dependsOn": [
+                "Compile asm11 Java"
+            ],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
         }
     ]
 }

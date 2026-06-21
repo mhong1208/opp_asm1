@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
-        "src"
+        "src",
+        "asm10/src"
     ],
-    "java.project.outputPath": "bin",
+    "java.project.outputPath": "asm10/bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
     ]
